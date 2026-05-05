@@ -1,0 +1,13 @@
+{
+  "repo": "apache",
+  "feeds": [
+    {
+      "source": "https://news.apache.org",
+      "feed_url": "https://news.apache.org/feed",
+      "saved": 10,
+      "title": "The ASF Blog"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:22:05Z"
+}
