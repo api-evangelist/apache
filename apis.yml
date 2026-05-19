@@ -38,6 +38,8 @@ apis:
       - type: GettingStarted
         url: https://community.apache.org/newcomers/
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/the-apache-software-foundation
   - type: Website
     url: https://www.apache.org
   - type: GitHubOrganization
