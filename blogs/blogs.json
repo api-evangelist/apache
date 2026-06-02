@@ -2,12 +2,20 @@
   "repo": "apache",
   "feeds": [
     {
-      "source": "https://news.apache.org",
+      "source": "https://news.apache.org/feed/",
       "feed_url": "https://news.apache.org/feed/",
-      "title": "The ASF Blog",
-      "saved": 4
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://community.apache.org/newcomers/",
+      "feed_url": "https://community.apache.org/newcomers/index.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     }
   ],
-  "post_count": 16,
-  "fetched": "2026-05-17T20:20:35Z"
+  "post_count": 17,
+  "fetched": "2026-06-01T23:35:02Z"
 }
