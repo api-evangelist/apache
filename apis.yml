@@ -39,6 +39,10 @@ apis:
       - type: GettingStarted
         url: https://community.apache.org/newcomers/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/apache-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/apache-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/the-apache-software-foundation
   - type: Website
