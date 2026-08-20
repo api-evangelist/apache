@@ -23,6 +23,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache.png
 tags:
+  - Open-Source
+  - Apache
+  - Foundation
+  - Software
+  - Fortune 500
+tags_raw:
   - Open Source
   - Apache
   - Foundation
@@ -42,6 +48,10 @@ apis:
       provides infrastructure, governance, and community support for all projects.
     humanURL: https://www.apache.org
     tags:
+      - Open-Source
+      - Foundation
+      - Apache
+    tags_raw:
       - Open Source
       - Foundation
       - Apache
