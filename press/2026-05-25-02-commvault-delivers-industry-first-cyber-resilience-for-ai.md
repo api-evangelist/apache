@@ -1,7 +1,9 @@
 ---
 title: Commvault Delivers Industry-First Cyber Resilience for AI ...
 url: https://www.prnewswire.com/news-releases/commvault-delivers-industry-first-cyber-resilience-for-ai-data-lakehouses-on-aws-with-support-for-apache-iceberg-tables-302570244.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Apache" press release artificial intelligence'
 position: 2
 source: serpapi-google

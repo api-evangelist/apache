@@ -1,7 +1,9 @@
 ---
 title: The Apache Software Foundation Launches $10M ...
 url: https://news.apache.org/foundation/entry/the-apache-software-foundation-launches-10m-responsible-ai-initiative-with-initial-1-75m-donation
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Apache" press release artificial intelligence'
 position: 4
 source: serpapi-google

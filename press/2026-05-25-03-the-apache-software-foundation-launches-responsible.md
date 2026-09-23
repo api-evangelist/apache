@@ -1,7 +1,9 @@
 ---
 title: The Apache Software Foundation Launches Responsible ...
 url: https://www.hpcwire.com/aiwire/2026/04/10/the-apache-software-foundation-launches-responsible-ai-initiative/
-date: '2026-05-25'
+published: '2026-04-10'
+date_basis: url-derived
+harvested: '2026-05-25'
 query: '"Apache" press release artificial intelligence'
 position: 3
 source: serpapi-google
