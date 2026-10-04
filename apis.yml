@@ -34,7 +34,7 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apache.png
 tags:
-  - Open-Source
+  - Open Source
   - Apache
   - Foundations
   - Software
@@ -45,6 +45,7 @@ tags_raw:
   - Foundation
   - Software
   - Fortune 500
+  - Open-Source
 url: >-
   https://raw.githubusercontent.com/api-evangelist/apache/refs/heads/main/apis.yml
 created: '2025-01-01'
@@ -59,13 +60,14 @@ apis:
       provides infrastructure, governance, and community support for all projects.
     humanURL: https://www.apache.org
     tags:
-      - Open-Source
+      - Open Source
       - Foundations
       - Apache
     tags_raw:
       - Open Source
       - Foundation
       - Apache
+      - Open-Source
     properties:
       - type: Documentation
         url: https://www.apache.org/dev/
