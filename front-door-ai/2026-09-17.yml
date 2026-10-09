@@ -7,7 +7,7 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: www.apache.org
   final_host: www.apache.org
-  ownership: inherited
+  ownership: own
   owner: apache
   shares_host_with:
   - apache-activemq
@@ -89,11 +89,14 @@ front_door_ai:
   - apache-zookeeper
   - parquet
   - svn
-  inherited_from: apache.org
+  inherited_from: null
+  alias_of: apache.org
   verdict: silent
-  score: null
+  score: 0
+  band: 1
+  band_label: silent
   host_score: 0
-  density: null
+  density: 0.0
   words: 782
   tiers:
     agentic: 0
