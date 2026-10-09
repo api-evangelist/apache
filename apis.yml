@@ -162,6 +162,8 @@ common:
         description: >-
           Apache projects like Airflow, Arrow, and Superset provide
           first-class Python support and PyPI packages.
+  - type: SpectralRules
+    url: https://github.com/apache/nutch/blob/c16be5f0c5f6132bc229dcd6820c4c09d952655f/.spectral.yaml
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
