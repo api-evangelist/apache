@@ -1,0 +1,54 @@
+edges:
+- partner_name: ELIXIR bio.tools (Web API records)
+  partner: null
+  partner_match: register
+  type: register
+  direction: partner-built
+  channel: standard-directory
+  relationship: standard-participant
+  evidence: https://bio.tools/t?toolType=%22Web%20API%22
+  match:
+    method: domain+name-among-holders
+    domain: apache.org
+    seen_as:
+    - credit url (Person)
+    - credit url (unstated)
+    - homepage
+    registered_as:
+    - Apache Taverna
+  life_sciences:
+    register: biotools
+    listings:
+    - id: apache_taverna
+      name: Apache Taverna
+    listings_total: 1
+    signals:
+    - Bioinformatics
+    - Cheminformatics
+    - Data management
+    - Data mining
+    - Ontology and terminology
+    - Pharmacology
+  contract_reference:
+    register: ELIXIR bio.tools (Web API records)
+    spec_file: null
+    role: biotools-web-api
+    registered_name: Apache Taverna
+    register_id: apache_taverna
+    matched_domain: apache.org
+    detected_by: sweep-life-sciences.py
+    detected: '2026-10-15'
+  detected_by: sweep-life-sciences.py
+  first_seen: '2026-10-15'
+generated: '2026-10-15'
+method: searched
+source:
+- https://bio.tools/api/tool/?format=json&toolType=%22Web%20API%22&page=1
+- https://registry.api.identifiers.org/resolutionApi/getResolverDataset
+- https://registry.ga4gh.org/v1/implementations
+- https://registry.ga4gh.org/v1/services
+checked:
+- https://bio.tools/api/tool/?format=json&toolType=%22Web%20API%22&page=1
+- https://registry.api.identifiers.org/resolutionApi/getResolverDataset
+- https://registry.ga4gh.org/v1/implementations
+- https://registry.ga4gh.org/v1/services
