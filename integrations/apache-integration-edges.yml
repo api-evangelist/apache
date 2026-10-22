@@ -40,6 +40,141 @@ edges:
     detected: '2026-10-15'
   detected_by: sweep-life-sciences.py
   first_seen: '2026-10-15'
+- partner_name: APIs.guru OpenAPI Directory
+  partner: apis-guru
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: third-party
+  evidence: https://apis.guru/
+  category: API definition directory listing (OpenAPI)
+  contract_reference:
+    register: APIs.guru OpenAPI Directory
+    spec_file: null
+    standard: APIs.guru OpenAPI Directory
+    role: listed-in-directory
+    directory_provider: apache.org
+    matched_domain: apache.org
+    matched_by: domain+name-among-holders
+    apis_listed: 3
+    version_count: 3
+    first_added: '2018-03-02'
+    last_updated: '2023-03-06'
+    origin_publisher_hosted: true
+    origin_hosts:
+    - airflow.apache.org
+    - raw.githubusercontent.com
+    categories:
+    - messaging
+    own_openapi_files: 0
+    listings:
+    - key: apache.org
+      title: Airflow API (Stable)
+      preferred: 2.5.1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/apache.org/2.5.1/openapi.json
+      origin_url: https://airflow.apache.org/docs/apache-airflow/stable/_specs/v1.yaml
+      openapi_version: 3.0.3
+    - key: apache.org:airflow
+      title: Airflow API (Stable)
+      preferred: 2.5.1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/apache.org/airflow/2.5.1/openapi.json
+      origin_url: https://airflow.apache.org/docs/apache-airflow/stable/_specs/v1.yaml
+      openapi_version: 3.0.3
+    - key: apache.org:qakka
+      title: Qakka
+      preferred: v1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/apache.org/qakka/v1/openapi.json
+      origin_url: https://raw.githubusercontent.com/apache/usergrid-qakka/master/docs/swagger.json
+      openapi_version: 3.0.3
+    signal_note: 'participation only: a community directory listing (APIs.guru collects definitions; the provider
+      did not file them). Signals: version_count, apis_listed, origin_publisher_hosted.'
+    detected_by: sweep-openapi-directory-apis-guru.py
+    detected: '2026-10-22'
+  detected_by: sweep-openapi-directory-apis-guru.py
+  first_seen: '2026-10-22'
+- partner_name: OpenSSF Best Practices Badge
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.bestpractices.dev/en/projects/5394
+  category: OpenSSF Best Practices badge (open-source project security conformance)
+  contract_reference:
+    register: OpenSSF Best Practices badge projects (bestpractices.dev/en/projects.json, paged)
+    standard: OpenSSF Best Practices Badge criteria (formerly CII Best Practices; bestpractices.dev)
+    spec_file: null
+    role: badge-holder
+    registered_name: Apache ShardingSphere
+    matched_by: github-org+name-among-claimants
+    matched_on: apache
+    certified_products:
+    - product: open-source project
+      product_type: open-source project
+      standard: OpenSSF Best Practices Badge criteria (formerly CII Best Practices; bestpractices.dev)
+      lapsed: false
+      partner_tier: gold
+      projects:
+      - name: Apache ShardingSphere
+        id: 5394
+        url: https://www.bestpractices.dev/en/projects/5394
+        badge_level: gold
+      - name: shiro
+        id: 14685
+        url: https://www.bestpractices.dev/en/projects/14685
+        badge_level: silver
+      - name: Apache CXF
+        id: 6978
+        url: https://www.bestpractices.dev/en/projects/6978
+        badge_level: passing
+      - name: Apache Casbin
+        id: 15229
+        url: https://www.bestpractices.dev/en/projects/15229
+        badge_level: passing
+      - name: Apache Log4j 2
+        id: 6952
+        url: https://www.bestpractices.dev/en/projects/6952
+        badge_level: passing
+      - name: Apache Pekko
+        id: 9032
+        url: https://www.bestpractices.dev/en/projects/9032
+        badge_level: passing
+      - name: Apache Santuario - XML Security for Java
+        id: 6932
+        url: https://www.bestpractices.dev/en/projects/6932
+        badge_level: passing
+      - name: Apache WSS4J
+        id: 6947
+        url: https://www.bestpractices.dev/en/projects/6947
+        badge_level: passing
+      - name: The Apache Struts
+        id: 6618
+        url: https://www.bestpractices.dev/en/projects/6618
+        badge_level: passing
+      - name: hertzbeat
+        id: 8139
+        url: https://www.bestpractices.dev/en/projects/8139
+        badge_level: passing
+      - name: ofbiz-framework
+        id: 8708
+        url: https://www.bestpractices.dev/en/projects/8708
+        badge_level: passing
+      - name: superset-kubernetes-operator
+        id: 13114
+        url: https://www.bestpractices.dev/en/projects/13114
+        badge_level: passing
+    signal_note: 'certified_products = ONE entry (product type: open-source project) with the highest CURRENT badge
+      level in partner_tier; a provider whose projects only lost the badge is lapsed: true; project names are context,
+      never counted; in_progress entries are not conformance'
+    detected_by: sweep-openssf-best-practices-badges.py
+    detected: '2026-10-22'
+  detected_by: sweep-openssf-best-practices-badges.py
+  first_seen: '2026-10-22'
 generated: '2026-10-15'
 method: searched
 source:
@@ -52,3 +187,6 @@ checked:
 - https://registry.api.identifiers.org/resolutionApi/getResolverDataset
 - https://registry.ga4gh.org/v1/implementations
 - https://registry.ga4gh.org/v1/services
+- https://api.apis.guru/v2/list.json
+- https://api.apis.guru/v2/providers.json
+- https://www.bestpractices.dev/en/projects.json

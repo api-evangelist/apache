@@ -22,3 +22,60 @@
     detected: '2026-10-15'
   status: not-a-workflow
   arazzo: null
+- slug: apache-apis-guru-openapi-directory
+  label: APIs.guru OpenAPI Directory
+  partner: apis-guru
+  partner_name: APIs.guru OpenAPI Directory
+  category: API definition directory listing (OpenAPI)
+  type: register
+  channel: standard-directory
+  evidence: https://apis.guru/
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: APIs.guru OpenAPI Directory
+    spec_file: null
+    standard: APIs.guru OpenAPI Directory
+    role: listed-in-directory
+    directory_provider: apache.org
+    matched_domain: apache.org
+    matched_by: domain+name-among-holders
+    apis_listed: 3
+    version_count: 3
+    first_added: '2018-03-02'
+    last_updated: '2023-03-06'
+    origin_publisher_hosted: true
+    origin_hosts:
+    - airflow.apache.org
+    - raw.githubusercontent.com
+    categories:
+    - messaging
+    own_openapi_files: 0
+    listings:
+    - key: apache.org
+      title: Airflow API (Stable)
+      preferred: 2.5.1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/apache.org/2.5.1/openapi.json
+      origin_url: https://airflow.apache.org/docs/apache-airflow/stable/_specs/v1.yaml
+      openapi_version: 3.0.3
+    - key: apache.org:airflow
+      title: Airflow API (Stable)
+      preferred: 2.5.1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/apache.org/airflow/2.5.1/openapi.json
+      origin_url: https://airflow.apache.org/docs/apache-airflow/stable/_specs/v1.yaml
+      openapi_version: 3.0.3
+    - key: apache.org:qakka
+      title: Qakka
+      preferred: v1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/apache.org/qakka/v1/openapi.json
+      origin_url: https://raw.githubusercontent.com/apache/usergrid-qakka/master/docs/swagger.json
+      openapi_version: 3.0.3
+    signal_note: 'participation only: a community directory listing (APIs.guru collects definitions; the provider
+      did not file them). Signals: version_count, apis_listed, origin_publisher_hosted.'
+    detected_by: sweep-openapi-directory-apis-guru.py
+    detected: '2026-10-22'
+  status: not-a-workflow
+  arazzo: null
