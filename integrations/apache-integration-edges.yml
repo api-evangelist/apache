@@ -175,6 +175,26 @@ edges:
     detected: '2026-10-22'
   detected_by: sweep-openssf-best-practices-badges.py
   first_seen: '2026-10-22'
+- partner_name: Artifact Hub (artifact-hub)
+  partner: artifact-hub
+  partner_match: mirror
+  mirror_match: domain+name-among-holders
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: artifact-hub
+  evidence: https://artifacthub.io/packages/search?repo=apache-polaris
+  mirror_of: artifact-hub/integrations/artifact-hub-integration-edges.yml
+  apps:
+  - polaris
+  - hertzbeat
+  listing_count: 1
+  detected: '2026-10-22'
+  detected_by: mirror-platform-listings.py
+  category: Artifact Hub listing (Helm chart)
+  badges:
+  - 'Verified publisher (Artifact Hub verified publisher: repository ownership proven)'
 generated: '2026-10-15'
 method: searched
 source:
@@ -190,3 +210,4 @@ checked:
 - https://api.apis.guru/v2/list.json
 - https://api.apis.guru/v2/providers.json
 - https://www.bestpractices.dev/en/projects.json
+- artifact-hub/integrations/artifact-hub-integration-edges.yml
