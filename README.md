@@ -1,4 +1,4 @@
-# Apache Software Foundation (apache)
+# Apache Software Foundation
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,76 +66,112 @@
 
 The Apache Software Foundation (ASF) is a 501(c)(3) nonprofit organization that provides open source software for the public good. Home to more than 300 open source projects maintained by a global community of over 9,900 committers and 1,190 members, the ASF operates under the principle of community over code. Projects span big data, cloud infrastructure, messaging, web frameworks, databases, build tooling, machine learning, and more — all released under the Apache License.
 
-**URL:** [https://raw.githubusercontent.com/api-evangelist/apache/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/apache/refs/heads/main/apis.yml)
+**Areas:** Open Source · Apache · Foundations · Software · Fortune 500
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache Software Foundation on APIs.io
 
-## Tags:
+Everything profiled for Apache Software Foundation is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache/](https://apis.io/providers/apache/)** — or go straight to one of the APIs or properties below.
 
- - Open Source, Apache, Foundation, Software
+### APIs (1)
 
-## Timestamps
+- [Apache Software Foundation](https://apis.io/apis/apache/apache-software-foundation/) — The Apache Software Foundation hosts 300+ open source projects spanning big data, cloud, messaging, databases, build tools, and more. The ASF provides…
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache Software Foundation
-The Apache Software Foundation hosts 300+ open source projects spanning big data, cloud, messaging, databases, build tools, and more. The ASF provides infrastructure, governance, and community support for all projects.
+#### Governance rules (1)
 
-**Human URL:** [https://www.apache.org](https://www.apache.org)
+Spectral rulesets for the provider's contracts.
 
-#### Tags:
+- [Apache Software Foundation — nutch rules](https://apis.io/rules/apache/apache-nutch-spectral-rules/)
 
- - Open Source, Foundation, Apache
+#### Security (2)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://www.apache.org/dev/)
-- [GettingStarted](https://community.apache.org/newcomers/)
+- [Apache Domain Security](https://apis.io/security/apache/apache-domain-security/)
+- [Apache Vulnerability Disclosure](https://apis.io/security/apache/apache-vulnerability-disclosure/)
 
-## Common Properties
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Apache Plans Pricing](https://apis.io/plans/apache/apache-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Apache Rate Limits](https://apis.io/rate-limits/apache/apache-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Apache Finops](https://apis.io/finops/apache/apache-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.apache.org)
-- [GitHubOrganization](https://github.com/apache)
 - [Documentation](https://www.apache.org/dev/)
-- [GettingStarted](https://community.apache.org/newcomers/)
-- [Blog](https://news.apache.org)
+- [Getting started](https://community.apache.org/newcomers/)
 - [Support](https://www.apache.org/foundation/mailinglists.html)
-- [TermsOfService](https://www.apache.org/licenses/)
+- [Blog](https://news.apache.org)
+- [Terms of service](https://www.apache.org/licenses/)
+- [GitHub](https://github.com/apache)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| 300+ Open Source Projects | Home to over 300 open source projects spanning big data, cloud infrastructure, messaging, databases, web frameworks, and more. |
-| Apache License | All ASF software is released under the Apache License 2.0, a permissive open source license compatible with most ecosystems. |
-| Global Community | Maintained by 9,900+ committers and 1,190+ members from around the world operating under the principle of community over code. |
-| Project Incubator | The Apache Incubator provides mentorship and infrastructure for new open source projects seeking to join the ASF ecosystem. |
-| Release Management | The ASF manages 1,300+ software releases with formal release voting and cryptographic signing processes ensuring software integrity. |
+**Kin Score 16.6** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| Big Data Processing | Process and analyze large-scale datasets using Apache Hadoop, Spark, Flink, Kafka, Arrow, and related ecosystem tools. |
-| API Gateway and Traffic Management | Route and manage API traffic with Apache APISIX and other gateway projects from the Apache ecosystem. |
-| Workflow Orchestration | Schedule and monitor data pipelines and workflows using Apache Airflow, Oozie, and related orchestration tools. |
-| Message Streaming | Build event-driven architectures using Apache Kafka, ActiveMQ, and Pulsar for high-throughput message streaming. |
-| Database and Storage | Store and query data with Apache Cassandra, HBase, Accumulo, CouchDB, and other distributed database projects. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Cloud Platforms | Apache projects integrate with AWS, Azure, and Google Cloud for cloud-native deployments and managed service offerings. |
-| Kubernetes | Many ASF projects support Kubernetes deployments via Helm charts and Kubernetes operators for containerized workloads. |
-| Java Ecosystem | Deep integration with the Java ecosystem including Maven, Gradle, and major JVM frameworks and runtime environments. |
-| Python Ecosystem | Apache projects like Airflow, Arrow, and Superset provide first-class Python support and PyPI packages. |
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache/](https://apis.io/providers/apache/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache Software Foundation: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
